@@ -633,7 +633,86 @@ footer li:last-child:after {
   @media (min-width: 768px) and (max-width: 1024px) {
     
     /* CSS */
+
+    .mini-bar {
+        width: 1000px;
+        height: 170px;
+    }
+
+    .personal {
+        margin-top: 15px;
+        margin-left: 350px;
+        margin-bottom: 10px;
+    }
+
+    .topnav {
+        margin-top: 30px;
+        width: 950px;
+    }
     
+    .stylebutton {
+        margin-left: 250px;
+    }
+
+    .post-image {
+        height: 2vh;
+        width: 1000px;
+    }
+
+    .post-header {
+        height: 1000px;
+    }
+
+    .surprisecat {
+        margin-left: -1040px;
+    }
+
+    .petimg {
+        height: 1100px;
+    }
+
+    .pesinfo {
+        margin-left: 50px;
+    }
+
+    .mackainfo {
+        margin-left: 500px;
+        margin-top: -310px;
+    }
+
+    .akvaristikainfo {
+        margin-left: 50px;
+    }
+
+    .hlodavecinfo {
+        margin-left: 500px;
+        margin-top: -310px;
+    }
+
+    .exotinfo {
+        margin-left: 50px;
+    }
+
+    .hospodinfo {
+        margin-left: 500px;
+        margin-top: -310px;
+    }
+
+    .post-adress {
+        width: 820px;
+        margin-left: 20px;
+    }
+
+    .post-adress img {
+        margin-left: 430px;
+    }
+
+    footer {
+        margin-top: 100px;
+        height: 30px;
+        width: 920px;
+        padding: 30px;
+    }
   }
   
   /* 
