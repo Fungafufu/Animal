@@ -313,22 +313,23 @@ h2 {
 }
 
 .post-title-left {
-    float: left;
+    /*float: left;*/
     max-width: 400px;
     height: 250px;
     margin-left: 180px;
-    margin-top: 50px;
+    margin-top: 0px;
     background-color: rgba(40, 50, 40, 0.42);
     padding: 45px;
     border-radius: 5px;
 }
 
 .post-title-right {
-    float: right;
+    /*float: right;*/
     max-width: 400px;
     height: 250px;
-    margin-right: 180px;
-    margin-top: 50px;
+    /*margin-right: 180px;*/
+    margin-top: -340px;
+    margin-left: 800px;
     background-color: rgba(40, 50, 40, 0.42);
     padding: 45px;
     border-radius: 5px;
@@ -723,6 +724,86 @@ footer li:last-child:after {
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
     /* CSS */
+
+    .mini-bar {
+        width: 1000px;
+        height: 170px;
+    }
+
+    .personal {
+        margin-top: 15px;
+        margin-left: 350px;
+        margin-bottom: 10px;
+    }
+
+    .topnav {
+        margin-top: 30px;
+        width: 950px;
+    }
+    
+    .stylebutton {
+        margin-left: 250px;
+    }
+
+    .post-image {
+        height: 2vh;
+        width: 1000px;
+    }
+
+    .post-header {
+        height: 1000px;
+    }
+
+    .surprisecat {
+        margin-left: -1040px;
+    }
+
+    .petimg {
+        height: 1100px;
+    }
+
+    .pesinfo {
+        margin-left: 50px;
+    }
+
+    .mackainfo {
+        margin-left: 500px;
+        margin-top: -310px;
+    }
+
+    .akvaristikainfo {
+        margin-left: 50px;
+    }
+
+    .hlodavecinfo {
+        margin-left: 500px;
+        margin-top: -310px;
+    }
+
+    .exotinfo {
+        margin-left: 50px;
+    }
+
+    .hospodinfo {
+        margin-left: 500px;
+        margin-top: -310px;
+    }
+
+    .post-adress {
+        width: 820px;
+        margin-left: 20px;
+    }
+
+    .post-adress img {
+        margin-left: 430px;
+    }
+
+    footer {
+        margin-top: 100px;
+        height: 30px;
+        width: 920px;
+        padding: 30px;
+    }
     
   }
   
@@ -734,7 +815,168 @@ footer li:last-child:after {
   @media (min-width: 481px) and (max-width: 767px) {
     
     /* CSS */
-    
+
+    .mini-bar {
+        width: 100%;
+        height: 340px;
+    }
+
+    .logoname {
+        font-size: 40px;
+        margin: 0px 2px 0px 100px;
+    }
+
+    .imgpetshop {
+        margin-left: 120px;
+    }
+
+    .personal {
+        margin-top: 150px;
+        margin-left: 10px;
+    }
+
+    .topnav {
+        margin-right: 100px;
+    }
+
+    .stylebutton {
+        margin-left: -120px;
+    }
+
+    .stylebutton input {
+        /*font-size: 10px;*/
+        display: none;
+    }
+
+    .styleimgbutton img {
+        display: none;
+    }
+
+    .post-image {
+        height: 2vh;
+        width: 500px;
+    }
+
+    .post-header {
+        height: 1300px;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: left;
+    }
+
+    .post-title-left {
+        max-width: 230px;
+        height: 250px;
+        margin-left: 20px;
+        padding: 45px;
+        padding-bottom: 150px;
+    }
+
+    .post-title-right {
+        max-width: 230px;
+        height: 250px;
+        margin-left: 20px;
+        margin-top: 30px;
+        padding: 45px;
+        padding-bottom: 150px;
+    }
+
+    .post-continued a {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .petimg {
+        height: 1900px;
+    }
+
+    .pesinfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .mackainfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .akvaristikainfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .hlodavecinfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .exotinfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .hospodinfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .post-adress {
+        width: 300px;
+        height: 350px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 30px;
+    }
+
+    .post-adress img {
+        display: none;
+    }
+
+    .post-adress p {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    footer {
+        height: 120px;
+    }
+
+    footer .menu {
+        margin-left: 7px;
+        margin-right: 7px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .footer-name {
+        margin-top: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
   }
   
   /* 
@@ -745,5 +987,161 @@ footer li:last-child:after {
   @media (min-width: 320px) and (max-width: 480px) {
     
     /* CSS */
+
+    .mini-bar {
+        width: 100%;
+        height: 400px;
+    }
+
+    .logoname {
+        font-size: 40px;
+        margin: 0px 2px 0px 100px;
+    }
+
+    .imgpetshop {
+        margin-left: 120px;
+    }
+
+    .personal {
+        margin-top: 150px;
+        margin-left: 10px;
+    }
+
+    .stylebutton {
+        margin-left: -120px;
+    }
+
+    .stylebutton input {
+        display: none;
+    }
+
+    .styleimgbutton img {
+        display: none;
+    }
+
+    .post-image {
+        height: 2vh;
+        width: 500px;
+    }
+
+    .post-header {
+        height: 1300px;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: left;
+    }
+
+    .post-title-left {
+        max-width: 230px;
+        height: 250px;
+        margin-left: 0px;
+        padding: 45px;
+        padding-bottom: 150px;
+    }
+
+    .post-title-right {
+        max-width: 230px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 30px;
+        padding: 45px;
+        padding-bottom: 150px;
+    }
+
+    .post-continued a {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .petimg {
+        height: 1900px;
+    }
+
+    .pesinfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .mackainfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .akvaristikainfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .hlodavecinfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .exotinfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .hospodinfo {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .post-adress {
+        width: 300px;
+        height: 350px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 30px;
+    }
+
+    .post-adress img {
+        display: none;
+    }
+
+    .post-adress p {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    footer .menu {
+        margin-left: 7px;
+        margin-right: 7px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .footer-name {
+        margin-top: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
     
   }
